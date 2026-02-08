@@ -48,9 +48,9 @@ public class Controller {
         } */
 
             public Item enterItem(String identifier) throws ItemNotFoundException, DatabaseFailureException {
-            Item item = inventorySystem.getItem(identifier);
-                sale.addItem(item);          
-                return item;
+            Item inventoryitem = inventorySystem.getItem(identifier);
+                        
+                return sale.addItem(inventoryitem);
 
             }
 
@@ -77,6 +77,11 @@ public class Controller {
     public void updateInventory()throws ItemNotFoundException{
         inventorySystem.updateInventory(sale);
     }
+
+    public double getRunningTotal() {
+    return sale.getTotalPrice();
+    }
+
 
    /*  public void printReceipt() {
         Receipt receipt = new Receipt(sale);

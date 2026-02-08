@@ -70,6 +70,7 @@ public class View {
 
         //To trigger an exception
         addItemToSale("999"); // Simulates database failure
+        addItemToSale("003"); // Simulate item not found failure. 
 
 
         // Ending the sale
@@ -115,20 +116,45 @@ public class View {
 
     } */
 
-        private void addItemToSale(String itemId) {
+        /* private void addItemToSale(String itemId) {
     try {
         Item item = controller.enterItem(itemId);
-        System.out.println("Item added: " + item.getDescription());
+        System.out.println("Item added: " + item.getDescription() + " x" +  item.getQuantity() + " " +  item.getPrice());
 
     } catch (ItemNotFoundException e) {
-        System.out.println("Item not found. Please check the identifier.");
+        System.out.println("Error: Item with identifier "+ itemId + " not found.");
         errorLogger.log(e);
 
     } catch (DatabaseFailureException e) {
-        System.out.println("System error. Please try again later.");
+        System.out.println("Error: Database connection failure for item: " + itemId);
+        errorLogger.log(e);
+    }
+} */
+    private void addItemToSale(String itemId) {
+    try {
+        Item item = controller.enterItem(itemId);
+
+        double runningTotal = controller.getRunningTotal();
+        double itemTotal = item.getPrice() * item.getQuantity() * (1 + item.getVATRate());
+
+        System.out.println(
+            "Item added: " +
+            item.getDescription() +
+            " x" + item.getQuantity() +
+            " | Item total: " + String.format("%.2f", itemTotal) +
+            " | Running total: " + String.format("%.2f", runningTotal)
+        );
+
+    } catch (ItemNotFoundException e) {
+        System.out.println("Error: Item with identifier " + itemId + " not found.");
+        errorLogger.log(e);
+
+    } catch (DatabaseFailureException e) {
+        System.out.println("Error: Database connection failure for item: " + itemId);
         errorLogger.log(e);
     }
 }
+
 
 
     /* public static void main(String[] args) {

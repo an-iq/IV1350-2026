@@ -47,7 +47,7 @@ public class Sale {
     } */
 
         // Change the addItem function to store inventory items directly.
-        public void addItem(Item inventoryItem){
+       /*  public void addItem(Item inventoryItem){
             for(Item existingItem : items){
                 if(existingItem.getIdentifier().equals(inventoryItem.getIdentifier())){
                     existingItem.increaseQuantity(1);
@@ -62,7 +62,27 @@ public class Sale {
             soldItem.increaseQuantity(0);
             items.add(soldItem);
             updateTotals();
+        } */
+
+            public Item addItem(Item item) {
+            for (Item existingItem : items) {
+            if (existingItem.getIdentifier().equals(item.getIdentifier())) {
+                existingItem.increaseQuantity(item.getQuantity());
+                updateTotals();
+                return existingItem;   
+            }
         }
+             Item newItem = new Item(
+                 item.getIdentifier(),
+                item.getDescription(),
+                item.getPrice(),
+            item.getVATRate()
+         );
+             items.add(newItem);
+                updateTotals();
+                return newItem;        
+        }       
+
          
 
     private void updateTotals() {

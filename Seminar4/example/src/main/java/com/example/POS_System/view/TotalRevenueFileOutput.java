@@ -141,9 +141,9 @@ public class TotalRevenueFileOutput implements SaleObserver {
         // Ensure FileWriter is in append mode
         try {
             logger = new PrintWriter(new FileWriter(REVENUELOG_FILE_NAME, true), true);
-            System.out.println("Debug: TotalRevenueFileOutput initialized, logging to " + REVENUELOG_FILE_NAME);
+           //System.out.println("Debug: TotalRevenueFileOutput initialized, logging to " + REVENUELOG_FILE_NAME);
         } catch (IOException e) {
-            System.err.println("Debug: Failed to initialize PrintWriter: " + e.getMessage());
+            //System.err.println("Debug: Failed to initialize PrintWriter: " + e.getMessage());
             throw e;
         }
     }

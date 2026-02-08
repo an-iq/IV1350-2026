@@ -32,3 +32,309 @@ com.example.POS_System.exceptions.DatabaseFailureException: Database connection 
 	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
+----- ERROR -----
+2026-02-08T23:51:41.669321
+Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:120)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:151)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:53:50.483318
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:120)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:151)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:55:14.256828
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:120)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:151)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:55:36.046409
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:120)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:151)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:57:29.038907
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:57:29.041180
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:58:12.760720
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:58:12.763485
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:01:55.159133
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:01:55.161066
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:02:37.309170
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:02:37.310223
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:121)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:06:19.829096
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:06:19.833046
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:12:11.065282
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:12:11.067259
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:13:55.029899
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T00:13:55.031775
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+

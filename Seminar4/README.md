@@ -1,4 +1,4 @@
-# IV1350-2024
+# IV1350-2026
 # Seminar 4 - Point-of-Sale (POS) System
 
 ## Introduction
@@ -106,6 +106,7 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
 ## Conclusion
 
 This project demonstrates the application of object-oriented principles to develop a maintainable and robust POS system. The implementation and testing ensure that the system functions correctly, handling various scenarios effectively.
+
 
 
 

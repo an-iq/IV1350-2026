@@ -19,16 +19,23 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
 - **Sample Run**:
     ```
     Starting a new sale...
-    Adding item: Milk - Running total: 11.2
-    Error: Database connection failure for item identifier: 999
-    Error: Item with identifier 003 not found.
-    Total price: 11.2
+    Item added: Milk
+    Item added: Bread
+    Item added: Bread
+    Total price: 56.0
+    Payment registered
+    Change: 44.0
     Logging sale...
-    Printing receipt...
+    Sale logged successfully.
+    ---------------------
     Receipt:
-    Date: 2024-06-04T13:10:57
-    Milk x1: 11.2
-    Total: 11.2
+    Date: 2026-02-08T22:14:07.331581
+    Milk x1: 11,20
+    Bread x2: 44,80
+    Total: 56,00
+    Paid: 100,00
+    Change: 44,00
+    ---------------------
     ```
 
 ### Task 2 Part a: Observer Pattern
@@ -41,18 +48,27 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
   - `Controller` registers observers.
 - **Sample Run**:
     ```
-    Starting a new sale...
-    Adding item: Milk - Running total: 11.2
-    Error: Database connection failure for item identifier: 999
+   Starting a new sale...
+    Item added: Milk x1 | Item total: 11,20 | Running total: 11,20
+    Item added: Bread x1 | Item total: 22,40 | Running total: 33,60
+    Item added: Bread x2 | Item total: 44,80 | Running total: 56,00
+    Error: Database connection failure for item: 999
     Error: Item with identifier 003 not found.
-    Total price: 11.2
+    Total price: 56.0
+    Total Revenue: 56.0
+    Payment registered
+    Change: 44.0
     Logging sale...
-    Printing receipt...
+    Sale logged successfully.
+    ---------------------
     Receipt:
-    Date: 2024-06-04T13:10:57
-    Milk x1: 11.2
-    Total: 11.2
-    Total Revenue: 11.2
+    Date: 2026-02-09T00:12:11.059379
+    Milk x1: 11,20
+    Bread x2: 44,80
+    Total: 56,00
+    Paid: 100,00
+    Change: 44,00
+    ---------------------
     ```
 
 ## How to Run

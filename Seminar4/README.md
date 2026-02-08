@@ -19,10 +19,11 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
 - **Sample Run**:
     ```
     Starting a new sale...
-    Item added: Milk
-    Item added: Bread
-    Item added: Bread
+    Item added: Milk x1 | Item total: 11,20 | Running total: 11,20
+    Item added: Bread x1 | Item total: 22,40 | Running total: 33,60
+    Item added: Bread x2 | Item total: 44,80 | Running total: 56,00
     Total price: 56.0
+    Total Revenue: 56.0
     Payment registered
     Change: 44.0
     Logging sale...
@@ -48,7 +49,8 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
   - `Controller` registers observers.
 - **Sample Run**:
     ```
-   Starting a new sale...
+    Starting a new sale...
+    Debug: TotalRevenueFileOutput initialized, logging to total_revenue.txt
     Item added: Milk x1 | Item total: 11,20 | Running total: 11,20
     Item added: Bread x1 | Item total: 22,40 | Running total: 33,60
     Item added: Bread x2 | Item total: 44,80 | Running total: 56,00

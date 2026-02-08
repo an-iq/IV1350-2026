@@ -1,5 +1,5 @@
 # IV1350-2024
-# Point-of-Sale (POS) System
+# Seminar 4 - Point-of-Sale (POS) System
 
 ## Introduction
 
@@ -12,37 +12,48 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
 
 ## Tasks
 
-### Task 1: Implementation
+### Task 1: Exception Handling
 
-- **Objective**: Implement the basic flow, startup scenario, and alternative flow 3-4b from the requirements.
-- **Approach**:
-  - **Model Layer**: Contains `Item`, `Sale`, and `Receipt` classes.
-  - **Integration Layer**: Contains `InventorySystem` and `AccountingSystem` classes.
-  - **Controller Layer**: Contains `Controller` class.
-  - **View Layer**: Contains `View` class for simulating user interactions.
+- **Objective**: Implement exception handling for the `InventorySystem` class to handle item not found and database failure scenarios.
+- **Implementation**: Custom exceptions are created and used in the `InventorySystem` class. The `Controller` and `View` classes handle these exceptions and log errors appropriately.
 - **Sample Run**:
     ```
     Starting a new sale...
     Adding item: Milk - Running total: 11.2
-    Adding item: Bread - Running total: 33.6
-    Adding item: Bread - Running total: 56.0
-    Total price: 56.0
+    Error: Database connection failure for item identifier: 999
+    Error: Item with identifier 003 not found.
+    Total price: 11.2
     Logging sale...
     Printing receipt...
     Receipt:
     Date: 2024-06-04T13:10:57
     Milk x1: 11.2
-    Bread x2: 44.8
-    Total: 56.0
+    Total: 11.2
     ```
 
-### Task 2: Unit Testing
+### Task 2 Part a: Observer Pattern
 
-- **Objective**: Write unit tests for key classes to ensure correctness and reliability.
-- **Test Coverage**:
-  - **SaleTest**: Tests adding new items and handling existing items.
-  - **InventorySystemTest**: Tests adding, removing, retrieving, and updating items.
-- **Framework**: JUnit
+- **Objective**: Use the Observer pattern to implement functionality that shows the total amount paid for purchases since the program started.
+- **Implementation**: 
+  - `SaleObserver` interface is defined.
+  - `TotalRevenueView` and `TotalRevenueFileOutput` classes are implemented as observers.
+  - `Sale` class is updated to notify observers of total revenue.
+  - `Controller` registers observers.
+- **Sample Run**:
+    ```
+    Starting a new sale...
+    Adding item: Milk - Running total: 11.2
+    Error: Database connection failure for item identifier: 999
+    Error: Item with identifier 003 not found.
+    Total price: 11.2
+    Logging sale...
+    Printing receipt...
+    Receipt:
+    Date: 2024-06-04T13:10:57
+    Milk x1: 11.2
+    Total: 11.2
+    Total Revenue: 11.2
+    ```
 
 ## How to Run
 
@@ -77,5 +88,6 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
 ## Conclusion
 
 This project demonstrates the application of object-oriented principles to develop a maintainable and robust POS system. The implementation and testing ensure that the system functions correctly, handling various scenarios effectively.
+
 
 

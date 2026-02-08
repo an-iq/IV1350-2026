@@ -1,0 +1,34 @@
+----- ERROR -----
+2026-02-08T23:13:36.543444
+Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:46)
+	at com.example.POS_System.view.View.addItemToSale(View.java:109)
+	at com.example.POS_System.view.View.sampleRun(View.java:61)
+	at com.example.POS_System.view.View.main(View.java:140)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-08T23:32:26.644183
+Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:120)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:151)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+

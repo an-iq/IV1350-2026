@@ -23,17 +23,23 @@ The project is structured according to the Model-View-Controller (MVC) and Layer
 - **Sample Run**:
     ```
     Starting a new sale...
-    Adding item: Milk - Running total: 11.2
-    Adding item: Bread - Running total: 33.6
-    Adding item: Bread - Running total: 56.0
+    Item added: Milk
+    Item added: Bread
+    Item added: Bread
     Total price: 56.0
+    Payment registered
+    Change: 44.0
     Logging sale...
-    Printing receipt...
+    Sale logged successfully.
+    ---------------------
     Receipt:
-    Date: 2024-06-04T13:10:57
-    Milk x1: 11.2
-    Bread x2: 44.8
-    Total: 56.0
+    Date: 2026-02-08T22:14:07.331581
+    Milk x1: 11,20
+    Bread x2: 44,80
+    Total: 56,00
+    Paid: 100,00
+    Change: 44,00
+    ---------------------
     ```
 
 ### Task 2: Unit Testing

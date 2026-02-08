@@ -137,7 +137,7 @@ public class TotalRevenueFileOutput implements SaleObserver {
      //* @throws IOException If an I/O error occurs.
      
      public TotalRevenueFileOutput() throws IOException {
-        this.totalIncome = 0.0f;
+        this.totalIncome = readPreviousTotal();
         // Ensure FileWriter is in append mode
         try {
             logger = new PrintWriter(new FileWriter(REVENUELOG_FILE_NAME, true), true);
@@ -190,4 +190,25 @@ public class TotalRevenueFileOutput implements SaleObserver {
 
         return current.format(formatter);
     }
+
+    private float readPreviousTotal() {
+    float lastTotal = 0.0f;
+
+    try (java.io.BufferedReader reader =
+            new java.io.BufferedReader(new java.io.FileReader(REVENUELOG_FILE_NAME))) {
+
+        String line;
+        while ((line = reader.readLine()) != null) {
+            if (line.contains("€")) {
+                String value = line.substring(line.lastIndexOf("€") + 1).trim();
+                lastTotal = Float.parseFloat(value.replace(",", "."));
+            }
+        }
+    } catch (Exception e) {
+        // File may not exist yet — that's fine
+    }
+
+    return lastTotal;
+}
+
 } 

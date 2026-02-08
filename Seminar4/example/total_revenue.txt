@@ -1,24 +1,4 @@
-8 feb. 2026 23:32:26 → The total revenue after the current transaction is: €56.0
+9 feb. 2026 00:39:30 → The total revenue after the current transaction is: €56.0
 __________________________________________________
-8 feb. 2026 23:51:41 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-8 feb. 2026 23:53:50 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-8 feb. 2026 23:55:14 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-8 feb. 2026 23:55:36 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-8 feb. 2026 23:57:29 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-8 feb. 2026 23:58:12 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-9 feb. 2026 00:01:55 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-9 feb. 2026 00:02:37 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-9 feb. 2026 00:06:19 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-9 feb. 2026 00:12:11 → The total revenue after the current transaction is: €56.0
-__________________________________________________
-9 feb. 2026 00:13:55 → The total revenue after the current transaction is: €56.0
+9 feb. 2026 00:39:37 → The total revenue after the current transaction is: €112.0
 __________________________________________________

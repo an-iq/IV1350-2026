@@ -440,3 +440,37 @@ com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 00
 	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
+----- ERROR -----
+2026-02-09T13:53:08.933619
+Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+com.example.POS_System.exceptions.DatabaseFailureException: Error: Database connection failure for item identifier: Database connection failure for item identifier: 999
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:28)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:72)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+----- ERROR -----
+2026-02-09T13:53:08.936506
+Item with identifier 003 was not found.
+com.example.POS_System.exceptions.ItemNotFoundException: Item with identifier 003 was not found.
+	at com.example.POS_System.integration.InventorySystem.getItem(InventorySystem.java:33)
+	at com.example.POS_System.controller.Controller.enterItem(Controller.java:51)
+	at com.example.POS_System.view.View.addItemToSale(View.java:135)
+	at com.example.POS_System.view.View.sampleRun(View.java:73)
+	at com.example.POS_System.view.View.main(View.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod(AbstractExecJavaBase.java:402)
+	at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod(ExecJavaMojo.java:142)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader(AbstractExecJavaBase.java:377)
+	at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0(AbstractExecJavaBase.java:287)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
